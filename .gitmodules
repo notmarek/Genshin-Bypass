@@ -1,0 +1,3 @@
+[submodule "libelevate"]
+	path = libelevate
+	url = https://github.com/notscimmy/libelevate.git
