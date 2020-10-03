@@ -12,7 +12,7 @@ In this project, I choose [libelevate](https://github.com/notscimmy/libelevate) 
 Also the libcapcom provides code execution on kernel which makes us advantage in this fight, against kernel mode drivers.
 
 Because mhyprot2 just hides its process handle by `ObRegisterCallbacks`.  
-After the work finishes, driver will be unloaded, therefore there are no real-time protections as of now.
+After the work finishes, driver will be unloaded.
 
 # Analysis
 
