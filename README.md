@@ -16,13 +16,13 @@ After the work finishes, the driver will be unloaded.
 
 # Analysis
 
-### The `"mhyprot2"` registers:
+### What `"mhyprot2"` registers:
 
 - **`PsSetCreateProcessNotifyRoutineEx`**
 - **`PsSetLoadImageNotifyRoutine`**
 - **`PsSetCreateThreadNotifyRoutine`**
 
-### The `"mhyprot2"` does:
+### What `"mhyprot2"` does:
 
 - Observing for `csrss.exe` injection.
 - Remove process/thread object from all handle tables.
