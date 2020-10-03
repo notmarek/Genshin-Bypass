@@ -1,6 +1,6 @@
 #pragma once
 
-#define WINDOW_TITLE "Œ´_"
+#define WINDOW_TITLE "原神"
 #define PROCESS_NAME "GenshinImpact.exe"
 
 #define CLASS_NAME "UnityWndClass"
