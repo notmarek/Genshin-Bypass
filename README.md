@@ -16,6 +16,10 @@ After the work finishes, the driver will be unloaded.
 
 # Analysis
 
+Some functionalities were being packed.  
+Also there are a lots of global variables.  
+Felt a bad code.
+
 ### What `"mhyprot2"` registers:
 
 - **`PsSetCreateProcessNotifyRoutineEx`**
