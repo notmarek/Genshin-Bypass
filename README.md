@@ -9,7 +9,7 @@ The Genshin installs KernelMode Driver named `"mhyprot2"` to protect its process
 So there is nothing we can do from the user-mode usually, except abusing exploits.
 
 In this project, I choose [libelevate](https://github.com/notscimmy/libelevate) which provides handle elevation for ANY processes, using [libcapcom](https://github.com/notscimmy/libcapcom).  
-Also the libcapcom provides code execution on kernel which makes us advantage in this fight, against kernel mode protections.
+Also the libcapcom provides code execution on kernel which makes us advantage in this fight, against kernel-level protections.
 
 Because mhyprot2 just hides its process handle by `ObRegisterCallbacks`.  
 After the work finishes, the driver will be unloaded.
