@@ -14,7 +14,7 @@ int main(int argc, char** argv)
         str.substr( str.find_last_of(".") + 1 ) != "dll"
        )
     {
-        printf("[!] input file must be library\n");
+        printf("[!] input file must be a library\n");
         return 1;
     }
 
